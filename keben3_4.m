@@ -1,0 +1,21 @@
+% a=[1 2 3;3 4 5;7 8 9];
+% b=norm(a,1)
+% c=norm(a)
+% d=norm(a,inf)
+% e=norm(a,'fro')
+% f=normest(a)
+b=magic(5)
+% c=rank(a)
+% d=rank(b)
+% e=det(a)
+% f=det(b)
+% g=trace(a)
+% h=trace(b)
+% z=null(a)
+% az=a*z
+% zr=null(a,'r')
+% azr=a*zr
+% q=orth(a)  %正交空间
+% r=rref(a)  %正交矩阵的约化行阶梯形式
+a=[1 2 3;3 4 5;7 8 9;8 7 9;0 2 8]
+subspace(a,b)
